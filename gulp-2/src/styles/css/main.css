@@ -1,0 +1,362 @@
+/*----------------------------------------
+    common
+----------------------------------------*/
+/*----------------------------------------
+    wrapper
+----------------------------------------*/
+.wrapper-c.result-o {
+  background-color: #00a2fb;
+  background-image: url(../images/20/bg-result.jpg); }
+
+/*----------------------------------------
+    content_header
+----------------------------------------*/
+.content_header-c {
+  background-color: #ffffff;
+  padding: 18px;
+  position: relative; }
+
+.content_header-heading {
+  font-size: 150%;
+  padding-left: 38px;
+  background: url(../images/20/ico-plane.png) no-repeat left center; }
+
+.content_header-aside {
+  bottom: 18px;
+  position: absolute;
+  right: 18px; }
+
+.content_header-link {
+  color: #666666;
+  text-decoration: none; }
+
+.content_header-heading .icon-o {
+  margin-right: 15px;
+  vertical-align: middle; }
+
+.content_header-link .icon-o {
+  margin-left: 5px; }
+
+/*----------------------------------------
+    schedule_menu
+----------------------------------------*/
+.schedule_menu-c {
+  background: #333333; }
+
+.schedule_menu-item {
+  float: left;
+  border-left: #000000 solid 1px;
+  overflow: hidden;
+  color: #ffffff;
+  height: 60px; }
+  .schedule_menu-item:first-child {
+    border-left: none; }
+
+.schedule_menu-item.item_type_01-o {
+  width: 26.37255%; }
+
+.schedule_menu-item.item_type_02-o {
+  width: 11.17647%; }
+
+.schedule_menu-item.item_type_03-o {
+  width: 13.33333%;
+  border-left: none;
+  background: #18aa95;
+  float: right;
+  font-size: 134%;
+  text-align: center; }
+
+/*----------------------------------------
+    item
+----------------------------------------*/
+.item-c {
+  overflow: hidden;
+  margin: 16px 0px 8px; }
+
+.item-container {
+  display: inline-block;
+  text-align: left; }
+
+.item-search_wrapper {
+  margin-top: 2px;
+  display: inline-table;
+  float: left; }
+  .item-search_wrapper .item-search_icon {
+    vertical-align: middle; }
+
+.item-search_text {
+  margin-top: 3px;
+  padding-left: 8px;
+  display: inline-table;
+  float: left;
+  font-weight: bold; }
+
+.item-c.cell_01-o {
+  padding: 0 18px 0 14px; }
+
+.item-c.cell_02-o {
+  padding: 0 7.01754% 0 5.26316%; }
+
+.item-c.cell_03-o {
+  padding: 0 22.96296%; }
+
+/*----------------------------------------
+    left_content
+----------------------------------------*/
+.left_content-c {
+  overflow: hidden;
+  float: left; }
+
+.left_content-title, .left_content-text {
+  float: left; }
+
+.left_content-text {
+  font-size: 134%;
+  margin-top: 3px;
+  font-weight: bold; }
+
+.left_content-intro {
+  font-weight: bold; }
+  .left_content-intro.top_intro-o {
+    display: block;
+    font-size: 92%; }
+  .left_content-intro.space-o {
+    padding-top: 5px; }
+
+.left_content-c.left_box_01-o {
+  width: 87.76371%; }
+
+.left_content-c.left_box_02-o {
+  width: 79.54545%; }
+
+.left_content-intro {
+  display: inline-block; }
+  .left_content-intro.small_text-o {
+    font-size: 84%;
+    padding-top: 6px; }
+  .left_content-intro.question-o {
+    padding-top: 0;
+    background: url(../images/20/ico-question_01.png) no-repeat right center;
+    padding-right: 18px; }
+
+.left_content-text.left_01-o {
+  padding-left: 11.53846%; }
+
+.left_content-text.left_02-o {
+  padding-left: 22.72727%; }
+
+/*----------------------------------------
+    right_content
+----------------------------------------*/
+.right_content-c {
+  float: right;
+  margin-top: 4px; }
+  .right_content-c img {
+    vertical-align: middle; }
+
+/*----------------------------------------
+    calendar_area
+----------------------------------------*/
+.calendar_area-c {
+  background-color: #ffffff;
+  padding: 20px 15px; }
+
+/*----------------------------------------
+    calendar_box
+----------------------------------------*/
+.calendar_box-c {
+  padding: 0;
+  width: 100%; }
+
+.calendar_box-item {
+  width: 21.21212%;
+  float: left;
+  text-align: center; }
+
+.calendar_box-inner {
+  display: block;
+  margin: 0 7px;
+  background-color: #ba1fb5;
+  height: 90px;
+  position: relative; }
+
+.calendar_box-tail {
+  position: absolute;
+  bottom: -10px;
+  left: 41.74757%; }
+
+.calendar_box-item.box_height-o {
+  width: 13.13131%; }
+
+.calendar_box-inner.table_cell-o {
+  border: #dadada solid 1px;
+  margin: 0 5px;
+  background-color: #ffffff;
+  height: 88px; }
+
+.calendar_box-inner.plus_space-o {
+  margin-left: 6px; }
+
+.calendar_box-inner.red-o {
+  color: #cc0000; }
+
+/*----------------------------------------
+    cost
+----------------------------------------*/
+.display_01, .cost-time, .cost-time_other, .cost-price_other {
+  display: block; }
+
+.cost-c {
+  padding: 11px 5.33981% 0;
+  display: block; }
+
+.cost-time {
+  font-size: 117%;
+  color: #333333; }
+
+.cost-price {
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 3px;
+  display: inline-block; }
+
+.cost-time_other {
+  background: #ffffff;
+  padding: 1px 32px 1px 3px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 117%;
+  font-weight: bold;
+  position: relative; }
+  .cost-time_other .cost-time_option {
+    position: absolute;
+    top: 1px;
+    right: 1px; }
+
+.cost-price_other {
+  margin-top: 5px;
+  font-size: 150%;
+  font-weight: bold;
+  color: #ffffff; }
+
+.cost-c.white_box-o {
+  padding: 19px 0; }
+
+.cost-time.blue-o {
+  color: #0066cc; }
+
+.cost-price.grey-o {
+  color: #cccccc;
+  font-size: 117%; }
+
+.cost-price.red_arrow-o {
+  background: url(../images/20/img-down_arrow_02.png) no-repeat right center;
+  padding-right: 20px; }
+
+/*----------------------------------------
+    time_travel
+----------------------------------------*/
+.cell_default, .time_travel-head, .time_travel-cell {
+  border-right: #dadada solid 1px;
+  width: 14.70588%; }
+
+.time_travel-c {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-collapse: separate;
+  border-spacing: 0; }
+
+.time_travel-head {
+  height: 70px;
+  background: #e8ebee; }
+
+.time_travel-cell {
+  height: 80px; }
+
+.time_travel-row {
+  background-color: #ffffff; }
+
+.time_travel-row.pink-o {
+  background-color: #f2e9f7; }
+  .time_travel-row.pink-o .time_travel-cell:first-child {
+    border-left: #ba1fb5 solid 4px; }
+
+.time_travel-head.width_01-o, .time_travel-cell.width_01-o {
+  width: 11.27451%; }
+
+.time_travel-head.width_02-o, .time_travel-cell.width_02-o {
+  width: 29.5098%; }
+
+.time_travel-head.other_pink-o, .time_travel-cell.other_pink-o {
+  background-color: #d684d6;
+  color: #ffffff; }
+
+.time_travel-head.dark_pink-o, .time_travel-cell.dark_pink-o {
+  background: #ba1fb5;
+  color: #ffffff; }
+
+/*----------------------------------------
+    plane_schedule
+----------------------------------------*/
+.centered, .plane_schedule-c .plane_schedule-estimate, .plane_schedule-info {
+  vertical-align: middle; }
+
+.plane_schedule-c {
+  position: relative;
+  text-align: center;
+  display: block; }
+
+.plane_schedule-c .tooltip_type_02-c {
+  position: absolute;
+  top: -10px;
+  right: 7px; }
+
+.plane_schedule-c .plane_schedule-estimate {
+  width: 100px;
+  display: inline-block;
+  font-size: 100%;
+  margin: 0 7.97342%;
+  font-weight: normal;
+  padding-top: 10px; }
+
+.plane_schedule-info {
+  font-size: 109%;
+  display: inline-block;
+  position: relative; }
+  .plane_schedule-info .tooltip_type_01-c {
+    position: absolute;
+    top: -20px;
+    right: -7px; }
+
+.plane_schedule-sale_icon {
+  position: absolute;
+  top: -26px;
+  right: -1px; }
+
+.plane_schedule-c .plane_schedule-estimate.sub_title-o {
+  font-size: 109%; }
+
+.plane_schedule-c .tooltip-c.one_line-o {
+  top: -18px; }
+
+.plane_schedule-info.pink_text-o {
+  color: #ba1fb5; }
+
+.plane_schedule-info.medium_text-o {
+  font-size: 117%; }
+
+.plane_schedule-info.large_text-o {
+  font-size: 150%; }
+
+.plane_schedule-info.red_text-o {
+  color: #cc0000; }
+
+.plane_schedule-info.grey_text-o {
+  color: #666666; }
+
+.plane_schedule-info.text_container-o {
+  width: 60px; }
+
+.plane_schedule-info.bold_text-o {
+  font-weight: bold; }

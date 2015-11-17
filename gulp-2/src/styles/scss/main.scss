@@ -1,0 +1,621 @@
+@charset "utf-8";
+
+/*----------------------------------------
+    common
+----------------------------------------*/
+$background_common: #ffffff;
+$border_common: #000000 solid 1px;
+
+/*----------------------------------------
+    wrapper
+----------------------------------------*/
+.wrapper-c.result-o {
+  background-color: #00a2fb;
+  background-image: url(../images/20/bg-result.jpg);
+}
+
+/*----------------------------------------
+    content_header
+----------------------------------------*/
+$c_name: 'content_header';
+$c: '.' + $c_name;
+$c_pre: $c_name + '-';
+
+//
+// variables
+//
+$c_padding: 18px;
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  background-color: $background_common;
+  padding: $c_padding;
+  position: relative;
+}
+
+//--------------------
+// Element
+//
+#{$c}-heading {
+  font-size: 150%;
+  padding-left: 38px;
+  background: url(../images/20/ico-plane.png) no-repeat left center;
+}
+
+#{$c}-aside {
+  bottom: $c_padding;
+  position: absolute;
+  right: $c_padding;
+}
+
+#{$c}-link {
+  color: #666666;
+  text-decoration: none;
+}
+
+//--------------------
+// Option
+//
+#{$c}-heading {
+  .icon-o {
+    margin-right: 15px;
+    vertical-align: middle;
+  }
+}
+
+#{$c}-link {
+  .icon-o {
+    margin-left: 5px;
+  }
+}
+
+/*----------------------------------------
+    schedule_menu
+----------------------------------------*/
+$c_name: 'schedule_menu';
+$c: '.' + $c_name;
+$c_pre: $c_name + '-';
+
+//
+// variables
+//
+$c_padding: 16px;
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  background: #333333;
+}
+
+//--------------------
+// Element
+//
+#{$c}-item {
+  float: left;
+  border-left: $border_common;
+  overflow: hidden;
+  color: #ffffff;
+  height: 60px;
+
+  &:first-child {
+    border-left: none;
+  }
+}
+
+//--------------------
+// Option
+//
+#{$c}-item {
+  &.item_type_01-o {
+    width: 269/1020*100%;
+  }
+  &.item_type_02-o {
+    width: 114/1020*100%;
+  }
+  &.item_type_03-o {
+    width: 136/1020*100%;
+    border-left: none;
+    background: #18aa95;
+    float: right;
+    font-size: 134%;
+    text-align: center;
+  }
+}
+
+/*----------------------------------------
+    item
+----------------------------------------*/
+$c_name: 'item';
+$c: '.' + $c_name;
+$c_pre: $c_name + '-';
+
+//
+// variables
+//
+$c_padding: 16px;
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  overflow: hidden;
+  margin: $c_padding 0px 8px;
+}
+
+//--------------------
+// Element
+//
+#{$c}-container {
+  display: inline-block;
+  text-align: left;
+}
+#{$c}-search_wrapper {
+  margin-top: 2px;
+  display: inline-table;
+  float: left;
+  #{$c}-search_icon {
+    vertical-align: middle;
+  }
+}
+#{$c}-search_text {
+  margin-top: 3px;
+  padding-left: 8px;
+  display: inline-table;
+  float: left;
+  font-weight: bold;
+}
+
+//--------------------
+// Option
+//
+#{$c}-c {
+  &.cell_01-o {
+    padding: 0 18px 0 14px;
+  }
+  &.cell_02-o {
+    padding: 0 8/114*100% 0 6
+    /114*100%;
+  }
+  &.cell_03-o {
+    padding: 0 31/135*100%;
+  }
+}
+
+/*----------------------------------------
+    left_content
+----------------------------------------*/
+$c_name: 'left_content';
+$c: '.' + $c_name;
+$c_pre: $c_name + '-';
+
+//
+// variables
+//
+$c_padding: 18px;
+$c_top_text: 3px;
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  overflow: hidden;
+  float: left;
+}
+
+//--------------------
+// Element
+//
+#{$c}-title, #{$c}-text {
+  float: left;
+}
+#{$c}-text {
+  font-size: 134%;
+  margin-top: $c_top_text;
+  font-weight: bold;
+}
+
+#{$c}-intro {
+  font-weight: bold;
+  &.top_intro-o {
+    display: block;
+    font-size: 92%;
+  }
+  &.space-o {
+    padding-top: 5px;
+  }
+}
+
+//--------------------
+// Option
+//
+#{$c}-c {
+  &.left_box_01-o {
+    width: 208/237*100%;
+  }
+  &.left_box_02-o {
+    width: 70/88*100%;
+  }
+}
+#{$c}-intro {
+  display: inline-block;
+  &.small_text-o {
+    font-size: 84%;
+    padding-top: 6px;
+  }
+  &.question-o {
+    padding-top: 0;
+    background: url(../images/20/ico-question_01.png) no-repeat right center;
+    padding-right: 18px;
+  }
+}
+
+#{$c}-text {
+  &.left_01-o {
+    padding-left: 24/208*100%;
+  }
+  &.left_02-o {
+    padding-left: 20/88*100%;
+  }
+}
+
+/*----------------------------------------
+    right_content
+----------------------------------------*/
+$c_name: 'right_content';
+$c: '.' + $c_name;
+$c_pre: $c_name + '-';
+
+//
+// variables
+//
+$c_padding: 18px;
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  float: right;
+  margin-top: $c_top_text+1;
+  & img {
+    vertical-align: middle;
+  }
+}
+
+/*----------------------------------------
+    calendar_area
+----------------------------------------*/
+$c_name: 'calendar_area';
+$c: '.' + $c_name;
+
+//
+// variables
+//
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  background-color: $background_common;
+  padding: 20px 15px;
+}
+
+/*----------------------------------------
+    calendar_box
+----------------------------------------*/
+$c_name: 'calendar_box';
+$c: '.' + $c_name;
+
+//
+// variables
+//
+$space: 5px;
+$blue: #0066cc;
+$red: #cc0000;
+$white: #ffffff;
+$grey: #cccccc;
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  padding: 0;
+  width: 100%;
+}
+
+//--------------------
+// Element
+//
+#{$c}-item {
+  width: 210/990*100%;
+  float: left;
+  text-align: center;
+}
+
+#{$c}-inner {
+  display: block;
+  margin: 0 7px;
+  background-color: #ba1fb5;
+  height: 90px;
+  position: relative;
+}
+
+#{$c}-tail {
+  position: absolute;
+  bottom: -10px;
+  left: 86/206*100%;
+}
+
+//--------------------
+// Option
+//
+#{$c}-item {
+  &.box_height-o {
+    width: 130/990*100%;
+  }
+}
+
+#{$c}-inner {
+  &.table_cell-o {
+    border: #dadada solid 1px;
+    margin: 0 5px;
+    background-color: #ffffff;
+    height: 88px;
+  }
+  &.plus_space-o {
+    margin-left: $space +1;
+  }
+  &.red-o {
+    color: $red;
+  }
+}
+
+/*----------------------------------------
+    cost
+----------------------------------------*/
+$c_name: 'cost';
+$c: '.' + $c_name;
+.display_01 {
+  display: block;
+}
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  padding: 11px 11/206*100% 0;
+  display: block;
+}
+
+//--------------------
+// Element
+//
+
+#{$c}-time {
+  @extend .display_01;
+  font-size: 117%;
+  color: #333333;
+}
+
+#{$c}-price {
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 3px;
+  display: inline-block;
+}
+
+#{$c}-time_other {
+  @extend .display_01;
+  background: $white;
+  padding: 1px 32px 1px 3px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 117%;
+  font-weight: bold;
+  position: relative;
+  #{$c}-time_option {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+  }
+}
+
+#{$c}-price_other {
+  @extend .display_01;
+  margin-top: 5px;
+  font-size: 150%;
+  font-weight: bold;
+  color: $white;
+}
+
+//--------------------
+// Option
+//
+#{$c}-c {
+  &.white_box-o {
+    padding: 19px 0;
+  }
+}
+#{$c}-time {
+  &.blue-o {
+    color: $blue;
+  }
+}
+#{$c}-price {
+  &.grey-o {
+    color: $grey;
+    font-size: 117%;
+  }
+  &.red_arrow-o {
+    background: url(../images/20/img-down_arrow_02.png) no-repeat right center;
+    padding-right: 20px;
+  }
+}
+
+/*----------------------------------------
+    time_travel
+----------------------------------------*/
+$c_name: 'time_travel';
+$c: '.' + $c_name;
+.cell_default {
+  border-right: #dadada solid 1px;
+  width: 150/1020*100%;
+}
+
+//
+// variables
+//
+$pink: #ba1fb5;
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+//--------------------
+// Element
+//
+#{$c}-head {
+  height: 70px;
+  background: #e8ebee;
+  @extend .cell_default;
+}
+#{$c}-cell {
+  height: 80px;
+  @extend .cell_default;
+}
+#{$c}-row
+{
+  background-color: $white;
+}
+
+//--------------------
+// Option
+//
+#{$c}-row {
+  &.pink-o {
+    background-color: #f2e9f7;
+    #{$c}-cell:first-child {
+      border-left: #ba1fb5 solid 4px;
+    }
+  }
+}
+#{$c}-head, #{$c}-cell {
+  &.width_01-o {
+    width: 115/1020*100%;
+  }
+  &.width_02-o {
+    width: 301/1020*100%;
+  }
+  &.other_pink-o {
+    background-color: #d684d6;
+    color: $white;
+  }
+  &.dark_pink-o {
+    background: #ba1fb5;
+    color: $white;
+  }
+}
+
+/*----------------------------------------
+    plane_schedule
+----------------------------------------*/
+$c_name: 'plane_schedule';
+$c: '.' + $c_name;
+.centered {
+  vertical-align: middle;
+}
+
+//--------------------
+// Component
+//
+#{$c}-c {
+  position: relative;
+  text-align: center;
+  display: block;
+}
+
+//--------------------
+// Element
+//
+#{$c}-c {
+  .tooltip_type_02-c {
+    position: absolute;
+    top: -10px;
+    right: 7px;
+  }
+  & #{$c}-estimate {
+    @extend .centered;
+    width: 100px;
+    display: inline-block;
+    font-size: 100%;
+    margin: 0 24/301*100%;
+    font-weight: normal;
+    padding-top: 10px;
+  }
+}
+#{$c}-info {
+  @extend .centered;
+  font-size: 109%;
+  display: inline-block;
+  position: relative;
+  .tooltip_type_01-c {
+    position: absolute;
+    top: -20px;
+    right: -7px;
+  }
+}
+
+#{$c}-sale_icon {
+  position: absolute;
+  top: -26px;
+  right: -1px;
+}
+
+//--------------------
+// Option
+//
+#{$c}-c {
+  & #{$c}-estimate {
+    &.sub_title-o {
+      font-size: 109%;
+    }
+  }
+  & .tooltip-c.one_line-o {
+    top: -18px;
+  }
+}
+
+#{$c}-info {
+  &.pink_text-o {
+    color: $pink;
+  }
+  &.medium_text-o {
+    font-size: 117%;
+  }
+  &.one_line-o {
+  }
+  &.large_text-o {
+    font-size: 150%;
+  }
+  &.red_text-o {
+    color: $red;
+  }
+  &.grey_text-o {
+    color: #666666;
+  }
+  &.text_container-o {
+    width: 60px;
+  }
+  &.bold_text-o {
+    font-weight: bold;
+  }
+}
